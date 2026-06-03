@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/yelp",
+  "title": "Yelp",
+  "description": "Yelp MCP — wraps the Yelp Fusion API (api.yelp.com/v3)",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/yelp",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-yelp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/yelp/mcp"
+    }
+  ]
+}
