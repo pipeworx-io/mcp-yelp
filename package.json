@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-yelp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Yelp MCP — wraps the Yelp Fusion API (api.yelp.com/v3)",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-yelp": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "yelp"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-yelp"
+    "url": "git+https://github.com/pipeworx-io/mcp-yelp.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-d175bdf6ab04e3381bbb416d32b358bbd12b3b232f73235120ed405308fc4868",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
   }
 }
