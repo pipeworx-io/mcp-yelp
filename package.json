@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-yelp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Yelp MCP — wraps the Yelp Fusion API (api.yelp.com/v3)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "yelp",
     "gatewaySlug": "yelp",
-    "sourceHash": "v1-87419b0d0e77648ffa240f66968cd0a8cf04c6509ace8868b7d3b35c234a0bdf",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-824b71e61246b50b0e4273417641ecb8255162d99e2d979b1aa70e473472d45e",
+    "sourceCommit": "78b905fa3a6880dfb85c79150f4bffe8cf50ef00"
   }
 }
